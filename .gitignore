@@ -1,0 +1,29 @@
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de dependências
+/vendor/
+/node_modules/
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de cache
+*.cache
+
+# Arquivos de logs
+/logs/
+*.log
+
+# Arquivos de configuração sensíveis
+conexao/config.php
+
+# Uploads de usuários (opcional - decida se deve versionar ou não)
+# /uploads/
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
