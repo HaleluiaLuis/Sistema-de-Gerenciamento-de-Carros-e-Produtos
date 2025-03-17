@@ -1,28 +1,35 @@
-# Nome do Projeto
+# Sistema de Gerenciamento de Carros e Produtos
 
-Descrição breve do seu projeto e suas funcionalidades.
+Sistema web desenvolvido em PHP para gerenciamento de carros, produtos, usuários e solicitações.
 
 ## Estrutura do Projeto
 
-- `conexao/`: Arquivos de conexão com o banco de dados
-- `controller/`: Controladores da aplicação
-- `DAO/`: Objetos de acesso a dados
-- `DTO/`: Objetos de transferência de dados
-- `uploads/`: Diretório para uploads de usuários
-- `view/`: Arquivos de interface do usuário
+- `conexao/`: Arquivos para conexão com o banco de dados
+- `controller/`: Controladores da aplicação (CarroController, UserController, etc.)
+- `DAO/`: Data Access Objects para operações no banco de dados
+- `DTO/`: Data Transfer Objects para representação de entidades
+- `uploads/`: Diretório para armazenar imagens e arquivos enviados
+- `view/`: Interface de usuário da aplicação
 
 ## Requisitos
 
-- PHP 7.x ou superior
+- PHP 7.4 ou superior
 - MySQL 5.7 ou superior
-- Extensões PHP: mysqli, pdo_mysql
+- Servidor web Apache ou Nginx
 
 ## Instalação
 
 1. Clone este repositório
 2. Configure o banco de dados no arquivo `conexao/Conexao.php`
-3. Importe o arquivo `database.sql` para seu MySQL
-4. Acesse a aplicação pelo navegador
+3. Acesse a aplicação pelo navegador através do seu servidor local
+
+## Funcionalidades
+
+- Cadastro e gerenciamento de usuários
+- Cadastro e gerenciamento de carros
+- Cadastro e gerenciamento de produtos
+- Gerenciamento de solicitações
+- Estatísticas e relatórios
 
 ## Licença
 

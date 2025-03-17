@@ -12,15 +12,19 @@ Thumbs.db
 # Arquivos de cache
 *.cache
 
-# Arquivos de logs
+# Arquivos de log
 /logs/
 *.log
 
-# Arquivos de configuração sensíveis
-conexao/config.php
+# Arquivos de configuração de conexão (dados sensíveis)
+/conexao/config_local.php
 
-# Uploads de usuários (opcional - decida se deve versionar ou não)
-# /uploads/
+# Diretórios de uploads (opcional - você pode querer excluir para não versionar arquivos grandes)
+/uploads/*.jpg
+/uploads/*.jpeg
+/uploads/*.png
+/uploads/*.gif
+/uploads/*.webp
 
 # Arquivos de IDE
 .idea/
